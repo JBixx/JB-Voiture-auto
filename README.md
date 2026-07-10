@@ -1,4 +1,4 @@
-# JB Auto — Navigation responsive avec Flexbox
+# JB Auto Navigation responsive avec Flexbox
 
 Projet réalisé dans le cadre du module **HTML, CSS & Git** (Akieni Academy).  
 **Auteur : HIRWA Jean Baptiste**
