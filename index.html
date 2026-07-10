@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="HIRWA Jean Baptiste">
+    <title>JB Auto | Vente de véhicules</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+
+    <nav class="navbar" aria-label="Navigation principale">
+        <div class="logo">JB Auto</div>
+
+        <ul class="menu">
+            <li class="menu-close">
+                <label for="menu-toggle" aria-label="Fermer le menu">×</label>
+            </li>
+            <li><a href="#accueil" class="active">Accueil</a></li>
+            <li class="dropdown">
+                <a href="#vehicules">Véhicules</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#vehicules">Berlines</a></li>
+                    <li><a href="#vehicules">SUV</a></li>
+                    <li><a href="#vehicules">Sportives</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+            <a href="#contact" class="btn-contact">Contactez-nous</a>
+            <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+    </nav>
+
+    <label for="menu-toggle" class="menu-overlay" aria-label="Fermer le menu"></label>
+
+    <main>
+        <section class="hero" id="accueil">
+            <div class="hero-content">
+                <h1>Trouvez la voiture qui vous convient</h1>
+                <p>Des véhicules vérifiés, des prix clairs et un accompagnement simple du début à la fin.</p>
+                <a href="#vehicules" class="btn-primary">Voir nos véhicules</a>
+            </div>
+        </section>
+
+        <section class="vehicles" id="vehicules">
+            <div class="container">
+                <h2>Nos Véhicules</h2>
+                <p class="section-intro">Trois modèles disponibles dès maintenant. Kilométrage contrôlé et historique transparent.</p>
+
+                <div class="vehicles-list">
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=700&q=80" alt="Porsche 911 Carrera">
+                        <div class="card-body">
+                            <span class="badge">Disponible</span>
+                            <h3>Porsche 911 Carrera</h3>
+                            <p class="specs">Année 2023 · 12 500 km · Essence</p>
+                            <p class="price">84 500 000 FCFA</p>
+                            <a href="#contact" class="card-link">Demander un essai</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=700&q=80" alt="Mercedes-AMG GT">
+                        <div class="card-body">
+                            <span class="badge">Disponible</span>
+                            <h3>Mercedes-AMG GT</h3>
+                            <p class="specs">Année 2022 · 18 200 km · Essence</p>
+                            <p class="price">64 500 000 FCFA</p>
+                            <a href="#contact" class="card-link">Demander un essai</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1556189250-72ba954cfc2b?w=700&q=80" alt="BMW Série 5">
+                        <div class="card-body">
+                            <span class="badge">Nouveau</span>
+                            <h3>BMW Série 5</h3>
+                            <p class="specs">Année 2023 · 9 800 km · Hybride</p>
+                            <p class="price">47 400 000 FCFA</p>
+                            <a href="#contact" class="card-link">Demander un essai</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Contactez-nous</h2>
+                <p>Besoin d'un renseignement ou d'un essai ? Écrivez-nous, nous répondons rapidement.</p>
+                <a href="mailto:contact@jbauto.fr" class="btn-primary">Envoyer un message</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Projet réalisé par <strong>HIRWA Jean Baptiste</strong>Akieni Academy · PROJET 4.1</p>
+    </footer>
+</body>
+</html>
