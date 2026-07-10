@@ -36,22 +36,6 @@ Site vitrine pour une concession automobile. Le focus du projet est une barre de
 
 Aucune installation nécessaire.
 
-## Critères du projet (PROJET 4.1)
-
-| Critère | Statut |
-|---------|--------|
-| Flexbox sur `<nav>` | ✅ |
-| `justify-content: space-between` | ✅ |
-| `align-items: center` | ✅ |
-| `flex-wrap` sur le menu (mobile) | ✅ |
-| `gap: 20px` | ✅ |
-| Responsive (768px + 992px) | ✅ |
-| Menu burger au clic | ✅ |
-| HTML sémantique et accessible | ✅ |
-| Pas de `float` | ✅ |
-| Dropdown au hover | ✅ (bonus) |
-| Transitions smooth | ✅ (bonus) |
-
 ## Technologies
 
 - HTML5
@@ -59,4 +43,4 @@ Aucune installation nécessaire.
 
 ## Auteur
 
-**HIRWA Jean Baptiste** — Akieni Academy
+**HIRWA Jean Baptiste** Akieni Academy
